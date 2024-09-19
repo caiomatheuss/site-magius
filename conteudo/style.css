@@ -29,6 +29,21 @@ body, html {
     height: 200px;
 }
 
+.localizaçao {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 4px 4px 4px 6px;
+    border-radius: 7px;
+    color: rgb(80, 76, 76);
+}
+
+.localizaçao::before {
+    content: ' 🗺️';
+}
+
 nav {
     background-color: lightgray;
     padding: 10px;
